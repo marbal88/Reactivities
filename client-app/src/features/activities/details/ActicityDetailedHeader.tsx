@@ -5,7 +5,6 @@ import {Button, Header, Item, Segment, Image, Label} from 'semantic-ui-react'
 import {Activity} from "../../../app/models/activity";
 import {format} from 'date-fns';
 import { useStore } from '../../../app/stores/store';
-import LoadingComponent from '../../../app/layout/LoadingComponents';
 
 const activityImageStyle = {
     filter: 'brightness(30%)'

@@ -8,7 +8,7 @@ import ProfileHeader from './ProfileHeader';
 export default function ProfilePage() {
     const {username} = useParams<{username: string}>();
     const {profileStore} = useStore();
-    const {loadingProfile, loadProfile, profile, setActiveTab} = profileStore;
+    const { loadProfile, profile, setActiveTab} = profileStore;
 
     useEffect(() => {
         loadProfile(username);
